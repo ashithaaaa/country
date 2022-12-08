@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(24, 24, 104);
+}
+.container{
+    background-color: #ffffff;
+    width: 900px;
+    max-width: 37.5em;
+    padding:3em 2.5em ;
+    position: absolute;
+    transform: translate(-58%, -50%);
+    top: 58%;
+    left: 58%;
+    border-radius: 0.62em;
+    box-shadow: 0 1.25em 1.8em rgba(113, 189, 108, 0.25);
+
+}
+.search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.27em;
+}
+.search-wrapper button{
+    font-size: 1em;
+    background-color:#3d64e6;
+    color: #ffffff;
+    padding: 6.8 0;
+    border: none;
+    border-radius: 1.5em;
+}
+.search-wrapper input{
+    font-size: 1em;
+    padding: 9 9.62px;
+    border: none;
+    border-bottom: 2px solid #3d64e6;
+}
+#result{
+    margin-top: 1.25em;
+}
+.container .flag-img{
+    display: block;
+    width: 45%;
+    min-width:  7.5em;
+    margin: 1.8em auto 1.2em auto;
+}
+.container h2{
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+}
+.data-wrapper{
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+.container h4{
+    display: inline;
+    font-weight: 500;
+    color: rgb(12, 12, 52);
+}
+.container span{
+    color: rgb(88, 11, 88);
+}
+.container h3{
+    text-align: center;
+}
